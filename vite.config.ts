@@ -22,7 +22,7 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve('src', 'component/index.ts'),
-      name: 'ReactViteLibrary',
+      name: '@hikigo/lib-example',
       formats: ['es', 'umd'],
       fileName: (format) => `@hikigo/lib-example.${format}.js`,
     },
